@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script data-main="scripts/main" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/x.y.z/require.js"></script>
+    <title>Unit Convertor</title>
+</head>
+<body>
+    <div class="convertor-body">
+        <h1 class="covertor-title">Quantity Measerment</h1>
+        <select id="headType">
+            <option value="area">Area</option>
+            <option value="length">Length</option>
+            <option value="temperature">Temperature</option>
+            <option value="time">Time</option>
+        </select>
+        <input type="text" placeholder="Input" id="input">
+        <span>=</span>
+        <input type="text" placeholder="Result" id="result">
+        <select id="inputType">
+            <!-- <option value="meter">Meter</option> -->
+            <!-- <option value="centemeter">Centemeter</option>
+            <option value="kilometer">Kilometer</option>
+            <option value="feet">Feet</option>
+            <option value="inch">Inch</option> -->
+        </select>
+        <select id="resultType">
+            <!-- <option value="meter">Meter</option> -->
+            <!-- <option value="centemeter">Centemeter</option>
+            <option value="kilometer">Kilometer</option>
+            <option value="feet">Feet</option>
+            <option value="inch">Inch</option> -->
+        </select>
+        <h3 id="showResult"></h3><br>
+    </div>
+</body>
+<script src="../js/ref.js"></script>
+</html>
